@@ -24,7 +24,7 @@ router.get("/:id", (req, res) => {
 router.post("/", (req, res) => {
   const id = uuidv4();
   req.body = {
-    title: "The Legend of Zelda: Breath of the Wild",
+    title: "The Legend of Zelda: Breiath of the Wild",
     ratings: "Everyone 10+",
     platforms: ["Nintendo Switch", "Wii U"],
     price: 49.99,
